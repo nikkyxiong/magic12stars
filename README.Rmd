@@ -1,0 +1,35 @@
+---
+output: github_document
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# magic12stars
+
+The goal of magic12stars is to ask for an input of a date and
+    returns the corresponding astrological sign if
+    one is born on that day. It is meant to be for fun!
+
+## Installation
+
+You can install the released version of magic12stars from [CRAN](https://CRAN.R-project.org) with:
+
+``` r
+install.packages("magic12stars")
+```
+
+## Example
+
+This is a basic example which shows you how to solve a common problem:
+
+```{r example}
+library(magic12stars)
+## basic example code
+```

@@ -1,0 +1,34 @@
+---
+title: "Magic 12 Stars"
+author: "Wangyu (Nikky) Xiong"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{The Magic12Stars Package Explained}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, echo=FALSE, out.width = "100%"}
+knitr::include_graphics("images/magic12stars.png")
+```
+
+The `magic12stars` package contains one functions: `magic12stars`.
+
+## `magic12stars` Function
+
+This function asks for an input of a date and returns the corresponding astrological sign if one is born on that day.
+
+_Please enjoy this little game!_
+
+```{r,echo=FALSE, message=FALSE}
+library(lubridate)
+```
+
+```{r, eval=FALSE, message=FALSE}
+library(magic12stars)
+magic12stars()
+```
+
+
+_You only live once, so HAVE FUN!_
