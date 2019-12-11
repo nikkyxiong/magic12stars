@@ -15,9 +15,8 @@
 #' @examples
 #' magic12stars()
 
-library(lubridate)
-
 magic12stars <- function(testdate=20191020) {
+    library(lubridate)
     testdate <- readline(cat("What date is in your mind?",
                              "Please enter the date in yyyymmdd format.",
                              sep = "\n"))
